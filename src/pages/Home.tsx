@@ -41,13 +41,15 @@ export function Home() {
           <div className="hero-card-inner">
             <span className="hero-card-kicker">A personal learning journal</span>
             <div className="hero-monogram" aria-hidden="true">QM</div>
-            <h2>PHẠM QUỲNH MAI</h2>
-            <p>Ngôn ngữ Anh · Trường Đại học Ngoại ngữ - ĐHQGHN</p>
-            <dl>
-              <div><dt>MSSV</dt><dd>25040858</dd></div>
-              <div><dt>MBTI</dt><dd>INFJ</dd></div>
-              <div><dt>Cung</dt><dd>Nhân Mã</dd></div>
-            </dl>
+            <div className="hero-card-content">
+              <h2>PHẠM QUỲNH MAI</h2>
+              <p>Ngôn ngữ Anh · Trường Đại học Ngoại ngữ – ĐHQGHN</p>
+              <dl>
+                <div><dt>MSSV</dt><dd>25040858</dd></div>
+                <div><dt>MBTI</dt><dd>INFJ</dd></div>
+                <div><dt>Cung</dt><dd>Nhân Mã</dd></div>
+              </dl>
+            </div>
           </div>
         </motion.aside>
 
