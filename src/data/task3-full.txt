@@ -1,0 +1,420 @@
+                               BÀI TẬP 3 – NMCNS
+I – Tóm tắt tài liệu
+   a) Lựa chọn tác vụ
+      - Tác vụ: Gemini AI
+      - Mục tiêu: Sử dụng Gemini tóm tắt một tài liệu học thuật liên quan đến trách
+        nhiệm đối với biến đổi khí hậu
+        Hormio, S. (2023). Collective responsibility for climate change. WIREs
+        Climate Change, 14(4), e830. https://doi.org/10.1002/wcc.830
+      - Điểm mạnh:
+           o Có khả năng nhanh chóng xác định ý chính và tóm tắt các nội dung
+              quan trọng của bài báo học thuật.
+           o Hỗ trợ diễn đạt lại (paraphrase) bằng ngôn ngữ học thuật, giúp hạn
+              chế sao chép nguyên văn.
+           o Tiết kiệm đáng kể thời gian đọc và xử lý các tài liệu học thuật dài, đặc
+              biệt hữu ích cho sinh viên khi nghiên cứu tài liệu
+      - Thách thức:
+           o Chất lượng bản tóm tắt phụ thuộc nhiều vào cách viết prompt; prompt
+              không rõ ràng có thể dẫn đến kết quả thiếu trọng tâm hoặc quá sơ sài.
+           o Có thể bỏ sót một số lập luận hoặc chi tiết quan trọng trong các bài
+              báo có nội dung phức tạp.
+           o Đôi khi diễn giải chưa hoàn toàn chính xác hoặc khái quát hóa quá
+              mức, vì vậy vẫn cần đối chiếu với tài liệu gốc.
+
+
+   b) Thực hành viết prompt
+   Prompt 1: Read the academic article at https://doi.org/10.1002/wcc.830 and
+   provide a concise summary.
+   Prompt 2: Read the academic article available at https://doi.org/10.1002/wcc.830
+   and probvide a well-organized summary. Use formal academic English and focus
+   only on the most important ideas and avoid unnecessary details.
+   You should follow this structure:
+   1. Research topic and purpose
+   2. Research questions or objectives
+   3. Methodology or approach used by the authors
+4. Main findings
+5. Conclusion and implications
+
+Prompt 3:
+You are an university student writing an academic research related to “who should
+be responsible for climate change, individuals or governments?”
+Your task is to analyze the academic article at https://doi.org/10.1002/wcc.830 and
+produce a high-quality summary.
+
+Before writing the final summary:
+- Carefully identify the article's research purpose, methodology, main arguments,
+evidence, findings, and conclusions.
+- Distinguish between major and minor information.
+- Organize the information logically before writing.
+- Think through the article step by step, but only present the final summary without
+showing your reasoning process.
+
+Example of a good summary:
+Input: A research article examines the effects of social media on university
+students' academic performance using a survey of 500 students.
+
+Output: "This study investigates how social media usage influences academic
+performance among university students. Using survey data from 500 participants,
+the researchers found that excessive daily social media use was associated with
+lower academic achievement, while moderate educational use could support
+learning. The study concludes that balanced social media habits are essential for
+maintaining academic success."
+
+Requirements:
+- 500-600 words.
+- Use accurate academic English.
+- Paraphrase completely; do not copy the original text.
+- Ensure the summary is coherent, objective, and logical.
+           c) Thử nghiệm và so sánh kết quả
+              - Link chat prompt từ Gemini:
+                Prompt 1
+                Prompt 2
+                Prompt 3
+
+             - Điểm giống: Kết quả thử nghiệm từ cả 3 prompt đều thu được dữ liệu nhanh
+               chóng và khá chính xác so với nguồn tài liệu gốc. Cả 3 phản hồi thu được
+               đều xác định đúng chủ đề nghiên và quan điểm chính của bài báo. Điều này
+               cho thấy dù prompt ở mức nào, Gemini vẫn có khả năng nhận diện và tóm
+               tắt được các ý chính của tài liệu học thuật.
+
+             - Điểm khác:
+             Mức độ chi        Cấu trúc        Khả năng xử lý          Đánh giá chung
+               tiết                              thông tin
+
+         Ngắn, khoảng      Chia thành 3 ý     Paraphrase tương      Phản hồi ngắn gọn, tập
+         200 từ, chỉ       chính tương tự     đối đơn giản và       trung vào những luận
+         nêu ý chính       như bài báo        chưa phù hợp hoàn     điểm quan trọng nhất
+         và lược bỏ        nhưng lược bỏ      toàn với một bài      của bài báo. Nội dung
+Prompt 1 khá nhiều         khá nhiều phần.    viết học thuật.       dễ hiểu nhưng chưa đề
+         phần quan                            Thông tin được liệt   cập dầy đủ hoàn toàn.
+         trọng có thể                         kê, chưa thấy sự so   Đây là kiểu tóm tắt phù
+         citation                             sánh và liên kết      hợp khi người dùng chỉ
+                                              giữa các lập luận     muốn nắm nhanh nội
+                                                                    dung của tài liệu.
+            Chi tiết hơn   Chia đúng theo    Paraphrase thông       Nhờ prompt quy định
+            và phân tích   cấu trúc được yêu tin khá tốt và có      rõ cấu trúc đầu ra,
+            đầy đủ từng    cầu theo prompt. phân loại thông tin.    Gemini trình bày thông
+            thành phần                                              tin theo từng mục riêng
+            của bài                                                 biệt như mục tiêu
+            nghiên cứu                                              nghiên cứu, phương
+Prompt 2                                                            pháp, kết quả và kết
+                                                                    luận. Nội dung đầy đủ
+                                                                    hơn, logic hơn và gần
+                                                                    với cách sinh viên
+                                                                    thường viết phần
+                                                                    literature review hoặc
+                                                                    article summary.
+            Dài và chi tiết Viết thành các      Paraphrase tự nhiê    Phản hồi có chất lượng
+            nhất, khoảng đoạn văn học           và học thuật nhất,    học thuật cao nhất.
+            500 từ. Tổng thuật liền mạch        có sự tổng hợp và     Gemini không chỉ tóm
+            hợp và diễn                         liên kết giữa các     tắt nội dung mà còn
+            giải sâu hơn,                       luận điểm             tổng hợp và diễn giải
+            nhấn mạnh                                                 các lập luận của tác giả
+            mối liên hệ                                               theo cách mạch lạc
+            giữa các ý                                                hơn. Các khái niệm
+Prompt 3                                                              như “collective action
+                                                                      problem”, “structural
+                                                                      injustice” và
+                                                                      “institutional
+                                                                      accountability” được
+                                                                      liên kết chặt chẽ thay
+                                                                      vì chỉ được liệt kê. Văn
+                                                                      phong cũng tự nhiên và
+                                                                      giống một bản tổng
+                                                                      quan học thuật hơn.
+
+
+           d) Phân tích hiệu quả prompt
+           Prompt 1: Prompt cơ bản tạo ra một bản tóm tắt ngắn gọn, chính xác và đủ để
+           người đọc hiểu chủ đề chính của bài báo. Tuy nhiên, do yêu cầu còn đơn giản nên
+           Gemini chỉ tập trung vào các ý nổi bật mà chưa trình bày đầy đủ cấu trúc của một
+           nghiên cứu học thuật. Prompt này phù hợp khi mục tiêu là đọc nhanh hoặc lấy ý
+           chính.
+           Prompt 2: Prompt cải tiến cho kết quả đầy đủ và có tổ chức hơn nhờ quy định rõ
+           từng phần cần trình bày. Gemini phản hồi sát với yêu cầu, thể hiện rõ mục tiêu
+           nghiên cứu, phương pháp, kết quả và kết luận. Điều này giúp người đọc dễ theo
+           dõi và có thể sử dụng trực tiếp cho việc học hoặc tham khảo khi viết bài.
+               Hình d.1. Ảnh minh họa prompt yêu cầu cấu trúc bài tóm tắt
+
+
+Prompt 3: Prompt nâng cao sử dụng nhiều kỹ thuật prompt engineering như role
+prompting, chain-of-thought, few-shot examples. Nhờ vậy, Gemini tạo ra bản tóm
+tắt có tính tổng hợp cao, liên kết tốt giữa các luận điểm và sử dụng ngôn ngữ học
+thuật tự nhiên. Nội dung không chỉ trình bày thông tin mà còn phản ánh được logic
+lập luận của tác giả. Tuy nhiên, phản hồi dài hơn và đôi khi bổ sung thêm các diễn
+giải mang tính suy luận, nên người dùng vẫn cần đối chiếu với tài liệu gốc nếu cần
+độ chính xác tuyệt đối.
+
+
+
+
+                    Hình d.2. Ảnh minh họa kỹ thuật role prompting
+Hình d.3. Ảnh minh họa kỹ thuật chain-of-thought
+Hình d.4. Ảnh minh họa kỹ thuật few-shot examples
+   e) Tổng hợp nguyên tắc
+      Qua quá trình thiết kế và thử nghiệm ba mức độ prompt, có thể tổng hợp một số
+      nguyên tắc và mẹo viết prompt hiệu quả như sau:
+      - Cần xác định rõ mục tiêu và yêu cầu của tác vụ để AI hiểu chính xác kết quả
+         mong muốn.
+      - Việc cung cấp cấu trúc đầu ra cụ thể (ví dụ: Research Purpose,
+         Methodology, Findings, Conclusion) giúp phản hồi có tính tổ chức và đầy
+         đủ hơn.
+      - Bổ sung các ràng buộc như độ dài, văn phong, cách diễn đạt và yêu cầu
+         paraphrase giúp nâng cao chất lượng nội dung.
+      - Áp dụng các kỹ thuật prompt engineering như role prompting và few-shot
+         examples giúp AI tạo ra phản hồi có chiều sâu, mạch lạc và phù hợp hơn với
+         mục đích học thuật. Kết quả thực nghiệm cho thấy prompt càng chi tiết và
+         có cấu trúc thì chất lượng phản hồi của Gemini càng cao, thể hiện ở khả
+         năng tổng hợp thông tin, tính logic và mức độ đáp ứng yêu cầu của người
+         dùng.
+
+II – Giải thích khái niệm phức tạp
+    a) Lựa chọn tác vụ
+       - Tác vụ: Claude AI
+       - Mục tiêu: Sử dụng Claude AI để giải thích khái niệm hố đen vũ trụ theo
+           cách chính xác, dễ hiểu và phù hợp với sinh viên chưa có nền tảng chuyên
+           sâu về vật lý.
+       - Điểm mạnh:
+              o Có khả năng giải thích các khái niệm phức tạp bằng ngôn ngữ rõ ràng,
+                 logic.
+              o Trình bày thông tin theo từng bước, giúp người học dễ tiếp cận.
+              o Giỏi sử dụng ví dụ và phép so sánh để minh họa các khái niệm trừu
+                 tượng.
+       - Thách thức:
+              o Nếu prompt quá chung chung, Claude có thể giải thích ở mức quá
+                 khái quát hoặc thiếu trọng tâm.
+              o Độ chi tiết và mức độ kỹ thuật của câu trả lời phụ thuộc nhiều vào
+                 cách thiết kế prompt.
+   b) Thực hành viết prompt
+Prompt 1: Hãy giải thích khái niệm hố đen vũ trụ. Trình bày hố đen là gì, hình thành
+như thế nào và vì sao ngay cả ánh sáng cũng không thể thoát ra khỏi hố đen. Sử dụng
+ngôn ngữ đơn giản, dễ hiểu.
+Prompt 2: Hãy giải thích khái niệm "hố đen vũ trụ" dành cho sinh viên năm nhất chưa
+có nhiều kiến thức về thiên văn học.
+Trình bày theo cấu trúc sau:
+1. Hố đen là gì?
+2. Hố đen hình thành như thế nào?
+3. Những đặc điểm nổi bật của hố đen.
+4. Vì sao ánh sáng không thể thoát khỏi hố đen?
+5. Một số quan niệm sai lầm phổ biến về hố đen.
+6. Ý nghĩa của việc nghiên cứu hố đen đối với khoa học.
+
+Prompt 3: Bạn là một giảng viên vật lý có nhiều năm kinh nghiệm giảng dạy cho sinh
+viên đại học. Bạn có khả năng giải thích những khái niệm khoa học phức tạp bằng
+ngôn ngữ đơn giản nhưng vẫn đảm bảo tính chính xác.
+
+Nhiệm vụ của bạn là giải thích khái niệm "hố đen vũ trụ" cho sinh viên năm nhất chưa
+có nền tảng về thiên văn học.
+
+Trước khi đưa ra câu trả lời, hãy xác định những kiến thức nền mà người học cần hiểu
+trước, sắp xếp nội dung theo trình tự từ dễ đến khó và xây dựng lời giải thích thật
+logic. Chỉ trình bày câu trả lời cuối cùng, không hiển thị quá trình suy luận.
+
+Ví dụ về cách giải thích mong muốn:
+Câu hỏi: "Hấp dẫn là gì?"
+Câu trả lời:
+"Hấp dẫn là lực hút giữa các vật có khối lượng. Ví dụ, khi bạn thả một quả bóng, quả
+bóng rơi xuống mặt đất vì Trái Đất có lực hấp dẫn kéo nó xuống. Lực hấp dẫn cũng
+giữ cho các hành tinh chuyển động quanh Mặt Trời."
+
+Bây giờ hãy giải thích hố đen theo cấu trúc sau:
+- Hố đen là gì?
+- Hố đen được hình thành như thế nào?
+- Vì sao ánh sáng không thể thoát khỏi hố đen?
+- Những hiểu lầm phổ biến về hố đen.
+- Một số sự thật thú vị về hố đen.
+- Tóm tắt kiến thức chính.
+
+Yêu cầu:
+- Độ dài khoảng 700 từ.
+- Sử dụng tiếng Việt rõ ràng, dễ hiểu nhưng vẫn mang tính học thuật.
+- Sử dụng ít nhất hai phép so sánh hoặc ví dụ minh họa.
+- Không sử dụng công thức toán học phức tạp.
+- Đảm bảo nội dung chính xác theo kiến thức khoa học hiện đại.
+
+   c) Thử nghiệm và so sánh kết quả
+      - Link chat prompt từ Claude:
+        Prompt 1
+        Prompt 2
+        Prompt 3
+
+- Điểm giống: Kết quả thử nghiệm từ cả 3 prompt đều thu được dữ liệu nhanh chóng
+  đều giải thích dúng nghĩa về hố đen, đồng thời đều sử dụng hình ảnh mô tả kiến
+  thức khoa học chính xác và ngôn ngữ khách quan.
+- Điểm khác nhau
+              Mức độ chi tiết        Cấu trúc              Đánh giá chung
+             Khoảng 300-400 Chỉ chia thành 3        Phản hồi ngắn gọn, tập trung
+             từ, nội dung nêu    ý chính như ví dụ giải thích những khái niệm
+             ra cơ bản, chỉ giải nêu ra trong       quan trọng nhất. Nội dung
+             thích ý chính.      prompt             được liệt kê khá dễ nhìn
+ Prompt 1 Hầu như không                             nhưng chưa đề cập dầy đủ
+             có ví dụ minh họa                      hoàn toàn. Đây là kiểu tóm tắt
+             dễ hiểu.                               phù hợp khi người dùng chỉ
+                                                    muốn hiểu nhanh, hiểu cơ bản
+                                                    về khái niệm hố đen vũ trụ
+
+
+
+             Chi tiết hơn và     Chia đúng theo      Nhờ prompt quy định rõ cấu
+             giải thích đầy đủ   cấu trúc được yêu   trúc, Claude trình bày thông
+             hơn. Có bổ sung     cầu theo prompt     tin theo 6 mục nên nội dung
+Prompt 2     nhiều ví dụ thực    gồm 6 mục.          đầy đủ và logic hơn. Ngoài
+           tế và mở rộng                             việc giải thích khái niệm, phản
+           kiến thức, đông                           hồi còn bổ sung nhiều thông
+           thời cũng phân                            tin mở rộng như sóng hấp dẫn,
+           tích thông tin sâu                        ảnh chụp hố đen năm 2019 và
+           hơn.                                      vai trò của hố đen trong việc
+                                                     kiểm chứng thuyết tương đối.
+                                                     Phù hợp với người muốn tìm
+                                                     hiểu kỹ về khái niệm hố đen
+                                                     vũ trụ.
+
+           Dài và chi tiết      Nội dung được        Phản hồi có chất lượng học
+           nhất, khoảng 500     trình bày theo cấu   thuật cao nhất. Claude sử dụng
+           từ. Tổng hợp và      trúc 6 mục như       nhiều phép so sánh như "chiếc
+           diễn giải sâu hơn,   prompt yêu cầu       phễu khổng lồ" hay "cuộc kéo
+           nhấn mạnh mối                             co" để minh họa các hiện
+           liên hệ giữa các ý                        tượng vật lý. Mặc dù lượng
+Prompt 3                                             thông tin không nhiều bằng
+                                                     Prompt 2, cách sắp xếp nội
+                                                     dung lại rất mạch lạc và có
+                                                     tính dẫn dắt từ đơn giản đến
+                                                     phức tạp. Phần kết luận cuối
+                                                     bài cũng giúp người dùng có
+                                                     thể hệ thống lại những kiến
+                                                     thức quan trọng.
+
+
+
+
+ d) Phân tích hiệu quả prompt
+ Prompt 1: Prompt cơ bản giúp Claude tạo ra phản hồi nhanh, súc tích và đúng
+ trọng tâm. Tuy nhiên, do yêu cầu còn đơn giản nên AI chỉ giải thích đúng những
+ nội dung được hỏi mà chưa chủ động mở rộng thêm kiến thức. Prompt này phù
+ hợp khi người dùng chỉ cần hiểu khái niệm trong thời gian ngắn.
+ Prompt 2: Prompt cải tiến mang lại phản hồi đầy đủ và chi tiết nhất. Việc quy định
+ rõ cấu trúc giúp Claude trình bày thông tin theo từng mục rõ ràng, đồng thời bổ
+ sung nhiều kiến thức liên quan như các loại hố đen, sóng hấp dẫn, ảnh chụp hố đen
+ và ý nghĩa nghiên cứu trong vật lý hiện đại. Nội dung phù hợp với mục đích học
+ tập hoặc tham khảo chuyên sâu.
+   Prompt 3: Prompt nâng cao áp dụng các kỹ thuật như role prompting, few-shot
+   examples. Kết quả cho thấy Claude giải thích theo phong cách của một giảng viên,
+   sử dụng nhiều phép so sánh trực quan và trình bày theo trình tự từ dễ đến khó.
+   Phản hồi có tính logic và dễ tiếp cận hơn Prompt 2, tuy nhiên lượng kiến thức mở
+   rộng lại ít hơn đôi chút. Vì vậy, Prompt 3 đặc biệt phù hợp với mục tiêu giảng dạy
+   hoặc giúp người mới bắt đầu học một khái niệm khoa học.
+    Kết luận: Prompt 2 nổi bật về độ đầy đủ và lượng kiến thức, trong khi Prompt
+      3 nổi bật về khả năng truyền đạt, tính sư phạm và sự mạch lạc. Điều này cho
+      thấy việc lựa chọn prompt phù hợp nên phụ thuộc vào mục đích sử dụng: nếu
+      cần học chuyên sâu, Prompt 2 là lựa chọn tốt hơn; nếu cần giải thích để người
+      mới dễ hiểu, Prompt 3 mang lại hiệu quả cao hơn.
+
+   e) Tổng hợp nguyên tắc
+    Xác định rõ mục tiêu và đối tượng người đọc để AI điều chỉnh mức độ giải
+      thích phù hợp.
+    Cung cấp cấu trúc đầu ra cụ thể nhằm giúp nội dung được trình bày logic và
+      đầy đủ hơn.
+    Đưa ra các ràng buộc về độ dài, phong cách diễn đạt và yêu cầu giải thích thuật
+      ngữ để tăng tính nhất quán của phản hồi.
+    Áp dụng role prompting để AI lựa chọn cách diễn đạt phù hợp với vai trò được
+      giao, từ đó nâng cao tính sư phạm.
+    Sử dụng few-shot prompting nhằm cung cấp một mẫu trình bày mong muốn,
+      giúp AI tạo phản hồi đúng định dạng và phong cách.
+    Hướng dẫn AI tổ chức nội dung theo trình tự từ đơn giản đến phức tạp (chain-
+      of-thought ẩn) giúp phản hồi mạch lạc hơn.
+
+II – Tạo quiz câu hỏi
+    a) Lựa chọn tác vụ
+       - Tác vụ: Gemini AI
+       - Mục tiêu: Sử dụng Gemini AI để tạo quiz câu hỏi về từ đồng nghĩa đơn
+          giản, dễ tiếp thu cho học sinh lớp 5
+       - Điểm mạnh:
+             o Có thể tạo nhanh nhiều câu hỏi đa dạng với mức độ khó phù hợp.
+             o Có khả năng tạo đáp án và giải thích giúp học sinh tự học.
+             o Tiết kiệm thời gian cho giáo viên khi thiết kế bài luyện tập.
+       - Thách thức:
+           o Nếu prompt chưa rõ, AI có thể tạo từ vựng vượt quá trình độ học sinh
+             lớp 5.
+           o Cần kiểm tra lại đáp án và cách diễn đạt để đảm bảo phù hợp với
+             chương trình tiểu học.
+   b) Thực hành viết prompt
+Prompt 1: Tạo quiz game về từ đồng nghĩa cho học sinh lớp 5
+Prompt 2: Tạo quiz game giúp học sinh lớp 5 ôn tập về từ đồng nghĩa.
+Yêu cầu:
+- Gồm 15 câu hỏi trắc nghiệm.
+- Mỗi câu có 4 đáp án A, B, C, D.
+- Chỉ có 1 đáp án đúng.
+- Sử dụng từ ngữ phù hợp với chương trình Tiếng Việt lớp 5.
+- Độ khó tăng dần từ câu 1 đến câu 10.
+- Trình bày rõ ràng, dễ đọc.
+
+Prompt 3: Bạn là một giáo viên tiểu học giảng dạy môn Tiếng Việt cho học sinh lớp 5.
+Nhiệm vụ của bạn là tạo một bài quiz giúp học sinh luyện tập về từ đồng nghĩa.
+
+Trước khi tạo câu hỏi, hãy xác định trình độ phù hợp với học sinh lớp 5, lựa chọn các
+từ quen thuộc trong sách giáo khoa và sắp xếp câu hỏi từ dễ đến khó. Chỉ trình bày
+bài quiz cuối cùng, không hiển thị quá trình suy luận.
+
+Ví dụ:
+Câu hỏi:
+Từ đồng nghĩa với từ "chăm chỉ" là gì?
+A. Lười biếng
+B. Siêng năng
+C. Nhanh nhẹn
+D. Buồn bã
+
+Đáp án: B
+
+Bây giờ hãy tạo bài quiz theo cấu trúc sau:
+- Tiêu đề bài quiz.
+- 15 câu hỏi trắc nghiệm.
+- Hiển thị đáp án đúng sau từng câu.
+
+Yêu cầu:
+- Nội dung phù hợp với học sinh lớp 5.
+- Không sử dụng từ khó hoặc từ ít gặp.
+- Đảm bảo các đáp án nhiễu hợp lý.
+
+   c) Thử nghiệm và so sánh kết quả
+      - Link chat prompt và game quiz từ Gemini:
+        Prompt 1
+        Prompt 2
+        Prompt 3
+
+       - Điểm giống: Cả ba phản hồi đều tạo được bài quiz về từ đồng nghĩa phù hợp
+         với học sinh lớp 5, đều có các câu hỏi trắc nghiệm và đáp án đúng. Nội dung
+         sử dụng từ vựng quen thuộc, bám sát mục tiêu ôn tập kiến thức.
+       - Điểm khác nhau
+   Prompt 1: Đáp án có kèm giải thích khái niệm từ tuy nhiên mức độ câu hỏi khá
+   khó so với trình độ học sinh lớp 5, nội dung quiz chưa được sắp xếp từ dễ đến khó.
+   Prompt 2: Câu hỏi được sắp xếp từ dễ đến khó, kèm khái niệm giải thích từ khi
+   chọn đáp án xong. Tuy nhiên còn một vài lỗi về nội dung câu hỏi như đáp án đưa
+   ra chưa rõ ràng lắm, cần được thay đổi và chỉnh sửa thêm.
+   Prompt 3: Bài quiz hoàn chỉnh, có giải thích khái niệm từ. Nội dung câu hỏi được
+   sắp xếp theo mức độ dễ đến khó và phù hợp với học sinh lớp 5. Các câu hỏi và đáp
+   án cũng được đưa ra chính xác và rõ ràng.
+
+   Phân tích hiệu quả prompt
+   Prompt 1: Prompt cơ bản tạo được bài quiz có đáp án và giải thích ý nghĩa của từ,
+   tuy nhiên mức độ câu hỏi còn khá khó so với học sinh lớp 5. Do không quy định
+   về độ khó và cấu trúc, các câu hỏi chưa được sắp xếp theo trình tự từ dễ đến khó.
+   Prompt 2: Prompt cải tiến giúp Gemini tạo bài quiz có cấu trúc rõ ràng hơn, các
+   câu hỏi được sắp xếp theo mức độ từ dễ đến khó và có giải thích sau mỗi đáp án.
+   Tuy nhiên, vẫn còn một số câu hỏi và đáp án chưa thật sự rõ ràng, cần được xem
+   xét và điều chỉnh để phù hợp hơn với đối tượng học sinh.
+Prompt 3 Prompt nâng cao cho kết quả tốt nhất. Bài quiz đầy đủ, các câu hỏi được
+thiết kế phù hợp với trình độ học sinh lớp 5, sắp xếp hợp lý từ dễ đến khó, đáp án
+chính xác và có giải thích rõ ràng.
+
+d) Tổng hợp nguyên tắc
+    Xác định rõ đối tượng người học (học sinh lớp 5) để AI lựa chọn từ vựng và
+     mức độ khó phù hợp.
+    Mô tả cụ thể yêu cầu của bài quiz như số lượng câu hỏi, dạng câu hỏi, cách
+     trình bày và nội dung cần kiểm tra.
+    Quy định rõ cấu trúc đầu ra (câu hỏi, đáp án, giải thích, bảng đáp án...) giúp
+     phản hồi đầy đủ và dễ sử dụng.
+    Bổ sung các ràng buộc về độ khó, chẳng hạn yêu cầu sắp xếp câu hỏi từ dễ
+     đến khó và sử dụng từ ngữ quen thuộc với học sinh.
+    Áp dụng các kỹ thuật role prompting và few-shot prompting để AI tạo bài
+     quiz có tính sư phạm, đáp án rõ ràng và chất lượng câu hỏi tốt hơn.
+

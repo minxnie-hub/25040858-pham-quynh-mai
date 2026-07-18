@@ -1,0 +1,106 @@
+{
+  "rows": [
+    {
+      "id": 1,
+      "source": "Zhai, X. (2022). ChatGPT for Next Generation Science Learning. SSRN Electronic Journal.",
+      "author": "Xiaoming Zhai (Associate Professor, University of Georgia) → Đáng tin cậy https://schol ar.google.co m/citations? user=pLk6B rEAAAAJ&h l=en",
+      "publisher": "SSRN (Elsevier) → Là kho lưu trữ bản tiền ấn phẩm (preprint) uy tín hàng đầu trong lĩnh vực khoa học xã hội và kinh tế, được cộng đồng nghiên cứu đánh giá cao về độ tin cậy.",
+      "method": "Phương pháp: Thử nghiệm khả năng của AI trong việc hỗ trợ viết và tư duy.",
+      "citations": "Độ tin cậy cao, được công bố trên nền tảng mạng nghiên cứu khoa học xã hội uy tín với hàng nghìn lượt download (~2760)",
+      "currency": "Được đăng tải vào 25/1/2023 → Khá update, Cập nhật đúng giai đoạn bùng nổ của Generative AI. Tuy nhiên, Do xuất bản quá sớm, các dòng AI trong bài giờ đã lỗi thời so với bản GPT-4o hay Claude 3 hiện nay."
+    },
+    {
+      "id": 2,
+      "source": "Deep, P. D., & Chen, Y (2025). The Role of AI in Academic Writing: Impacts on Writing Skills, Critical Thinking, and Integrity in Higher Education.",
+      "author": "Promethi Das Deep https://schol ar.google.co m/citations? user=3WrVgj 0AAAAJ&hl= en Yixin Chen https://schol ar.google.co m/citations? user=NByrs K0AAAAJ&h l=en - Ưu điểm: + Có công bố trên journal học thuật + Nghiên cứu thuộc lĩnh vực giáo dục và công nghệ - Hạn chế: + Không thấy rõ affiliation (trường/viện ) trong nguồn tóm tắt + Không có thông tin về track record (số bài, chỉ số H-index…)",
+      "publisher": "MDPI → là nhà xuất bản truy cập mở nổi tiếng với tốc độ xuất bản nhanh, quy trình đánh giá ngang hàng (peer-revie w) gọn nhẹ, nhiều tạp chí đạt chỉ số Scopus/ISI (Q1, Q2). Tuy nhiên cũng gây tranh cãi về chất lượng, thường bị hoài nghi về tính nghiêm túc so với các nhà xuất bản truyền thống như Elsevier hay Springer",
+      "method": "Phương pháp: Narrative literature review (tổng quan tài liệu) - Ưu điểm: + Có framework đánh giá (SANRA) → tăng tính hệ thống + Tổng hợp nhiều nghiên cứu → cho cái nhìn rộng + Phù hợp với chủ đề mới (AI trong viết học thuật) - Hạn chế: + Narrative review dễ chọn lọc tài liệu chủ quan, bias trong phân tích",
+      "citations": "Độ uy tín theo tiêu chí citation ở mức khá thấp đến trung bình, vì đây là bài mới nên số lượt trích dẫn (citation count) còn ít.",
+      "currency": "Xuất bản; 2025 → tính cập nhật cao"
+    },
+    {
+      "id": 3,
+      "source": "Lee, Y.-J., Davis, R.O. and Choi, J.-I. (2025). Integrating generative AI into EFL writing: University students’ strategies and perceptions. Online Journal of Communicatio n and Media Technologies.",
+      "author": "Lee, Y.-J.,Davis, R.O. and Choi, J.-I. - Ưu điểm: + Là giảng viên/nhà nghiên cứu trong lĩnh vực giáo dục ngôn ngữ + Nghiên cứu đúng chuyên môn (EFL + AI) - Hạn chế: + Không có thông tin về citation cá nhân/H-inde x",
+      "publisher": "Online Journal of Communication and Media Technologies (OJCMT) - Ưu điểm: + Indexed: Scopus, Web of Science (ESCI) + Q2 (Communic ation/Social Sciences) + Peer-review ed - Hạn chế: + Impact Factor thấp (0.7)",
+      "method": "Phương pháp: Quantitative research (định lượng) - Ưu điểm: + Có dữ liệu thực nghiệm (primary data) + Có thống kê - Hạn chế: + Sample nhỏ (n=59) → khả năng khái quát thấp + Dựa nhiều vào self-reported data (survey)",
+      "citations": "Bài rất mới, chưa có nhiều citations. → Ảnh hưởng thấp, chưa được kiểm chứng rộng rãi",
+      "currency": "Năm: 2025 → Tính cập nhật cao, đặc biệt là về vấn đề AI"
+    },
+    {
+      "id": 4,
+      "source": "Rahman, W. Z. (2026). Artificial Intelligence (AI) in English Writing Skills Learning: A Systematic Review. ETDC Indonesian Journal of Research and Educational Review",
+      "author": "Rahman, W. Z. - Ưu điểm: + Có bài đăng trên journal - Hạn chế: + Thiếu thông tin rõ ràng về affiliation, background học thuật",
+      "publisher": "Internationa l Journal of Recent Education Research (IJRER) - Ưu điểm: + Có quy trình nghiên cứu chuẩn + Peer-review ed - Hạn chế: + Không thấy indexing rõ ràng trên Scopus/Wo S + Journal còn khá mới và ảnh hưởng thấp",
+      "method": "(Không có thông tin cụ thể) - Ưu điểm: + Journal yêu cầu đầy đủ cấu trúc nghiên cứu (method, hypothesi s…) - Hạn chế: + Không rõ sample size, design,...",
+      "citations": "Gần như không có trích dẫn → Ảnh hưởng học thuật thấp",
+      "currency": "Năm: khoảng 2024-2025 → Khá mới, phù hợp chủ đề AI/giáo dục"
+    },
+    {
+      "id": 5,
+      "source": "Andreou, G. and Christani, P. (2025). The Benefits and Limitations of the Use of Generative Artificial Intelligence Tools in the Acquisition of Productive Skills in English as a Foreign Language—A Systematic Analysis. Applied Sciences",
+      "author": "Andreou, G. and Christani, P. - Ưu điểm: + Có bài đăng trên journal Scopus, Web of Science + Bài thuộc lĩnh vực ứng dụng (AI/tech/edu cation)",
+      "publisher": "Applied Sciences (MDPI) - Ưu điểm: + SCIE indexed + Q2, CiteScore Q1 + Peer-review ed - Hạn chế: + MDPI có tranh cãi về chất lượng bài đăng không đồng đều",
+      "method": "Phương pháp: Empirical - Ưu điểm: + Có data và phương pháp kỹ thuật rõ ràng",
+      "citations": "Bài rất mới, chưa có nhiều citations. → Tiềm năng được cite lớn (journal có độ nhận diện cao)",
+      "currency": "Năm: 2025 → Tính cập nhật cao, đặc biệt là về vấn đề AI"
+    },
+    {
+      "id": 6,
+      "source": "Miao, F. and Holmes, W. (2023). Guidance for generative AI in education and research. UNESCO eBooks. UNESCO.",
+      "author": "Miao, F. and Holmes, W. - Ưu điểm: + Là chuyên gia về AI trong giáo dục, chính sách giáo dục toàn cầu + Làm việc trực tiếp với UNESCO, không chỉ viết research mà còn tham gia xây dựng framework giáo dục AI - Hạn chế: + Thiên về nghiên cứu chính sách hơn là thực nghiệm",
+      "publisher": "UNESCO - Ưu điểm: + Tổ chức quốc tế, ít bias thương mại + Được sử dụng bởi các chính phủ, các tổ chức giáo dục và các nhà nghiên cứu - Hạn chế: + Không phải peer-review ed theo kiểu journal",
+      "method": "Phương pháp: Policy report - Ưu điểm: + Tổng hợp từ nhiều nguồn lớn, độ bao quát rất rộng + Góc nhìn hệ thống",
+      "citations": "Được trích dẫn rộng trong nhiều nghiên cứu AI education → Ảnh hưởng lớn",
+      "currency": "Năm:2023 → Tuy không phải mới nhất trong lĩnh vực AI nhưng vẫn có tính cập nhật khá cao"
+    },
+    {
+      "id": 7,
+      "source": "Carless, D. and Boud, D. (2018). The development of student feedback literacy: Enabling uptake of feedback. Assessment & Evaluation in Higher Education",
+      "author": "Carless, D. and Boud, D. - Ưu điểm: + Cả hai đều là chuyên gia hàng đầu trong lĩnh vực đánh giá và phản hồi trong giáo dục đại học + Có nhiều công trình nghiên cứu ảnh hưởng lớn - Hạn chế: + Không phải nghiên cứu thực nghiệm trong bài này",
+      "publisher": "Assessmen t & Evaluation in Higher Education - Ưu điểm: + Là tạp chí quốc tế uy tín lâu đời (từ 1981) + Có peer-review nghiêm ngặt + Thuộc hệ thống Taylor & Francis (một trong những nhà xuất bản học thuật lớn)",
+      "method": "Phương pháp: Conceptu al paper (nghiên cứu lý thuyết) - Ưu điểm: + Xây dựng khung lý thuyết rõ ràng, có hệ thống + Có tính khai mở lý thuyết, ảnh hưởng đến nhiều nghiên cứu sau - Hạn chế: + Không có dữ liệu thực nghiệm + Dựa vào tổng hợp → có thể có yếu tố chủ quan",
+      "citations": "~784 trích dẫn (rất cao) → Ảnh hưởng lớn, được cộng đồng nghiên cứu công nhận rộng rãi",
+      "currency": "Năm: 2018 → Tuy không mới nhưng nó cung cấp lý thuyết nền tảng và vẫn sử dụng rộng rãi đến hiện tại"
+    },
+    {
+      "id": 8,
+      "source": "Tang, Y.M., Chen, P.C., Law, K.M.Y., Wu, C.H., Lau, Y., Guan, J., He, D. and Ho, G.T.S. (2021). Comparative Analysis of Student’s Live Online Learning Readiness During the Coronavirus (COVID-19) Pandemic in the Higher Education Sector. Computers & Education",
+      "author": "Tang, Y.M., Chen, P.C., Law, K.M.Y., Wu, C.H., Lau, Y., Guan, J., He, D. and Ho, G.T.S. - Ưu điểm: + Có affiliation rõ ràng, thuộc các trường đại học uy tín quốc tế + Có nhiều tác giả → tăng độ tin cậy do có kiểm chứng nội bộ",
+      "publisher": "Computers & Education - Ưu điểm: + Q1 (Scopus & Web of Science) + Là một trong những journal hàng đầu thế giới về công nghệ giáo dục và e-learning + Peer-review rất nghiêm ngặt - Hạn chế: + Gần như không có nhược điểm đáng kể trong bối cảnh academic",
+      "method": "Phương pháp: Nghiên cứu định lượng (quantitat ive) - Ưu điểm: + Có dữ liệu thực nghiệm (primary data) + Sử dụng phương pháp thống kê chuẩn → độ tin cậy cao + Mô hình nghiên cứu rõ ràng, có kiểm định giả thuyết - Hạn chế: + Context giới hạn (chủ yếu ở khu vực Châu Á)",
+      "citations": "~375 trích dẫn (Scopus) ~233 trích dẫn (Web of Science) → Ảnh hưởng lớn, được cộng đồng nghiên cứu công nhận rộng rãi",
+      "currency": "Năm: 2021 → Gắn với bối cảnh COVID-19 và chuyển đổi số trong giáo dục. → Tuy nhiên không phản ánh giai đoạn AI generative"
+    },
+    {
+      "id": 9,
+      "source": "Widiati, U., Rusdin, D., Darwin, D. and Indrawati, I. (2023). The impact of AI writing tools on the content and organization of students’ writing: EFL teachers’ perspective. Cogent Education",
+      "author": "Widiati, U., Rusdin, D., Darwin, D. and Indrawati, I. - Ưu điểm: + Có affiliation rõ ràng → đảm bảo tính minh bạch học thuật - Hạn chế: + Không phải học giả có ảnh hưởng lớn quốc tế",
+      "publisher": "Cogent Education - Ưu điểm: + Thuộc hệ thống Taylor & Francis → đảm bảo chuẩn học thuật quốc tế + Có peer-review - Hạn chế: + Là journal dạng open access (Cogent series)",
+      "method": "Phương pháp: Nghiên cứu định tính (qualitativ e) - Ưu điểm: + Có dữ liệu thực tế từ giáo viên → góc nhìn thực tiễn + Cung cấp insight về cách AI ảnh hưởng đến nội dung và cấu trúc bài viết - Hạn chế: + Dựa trên ý kiến chủ quan (self-repo rted perceptio n) + Không có đo lường khách quan",
+      "citations": "~284 trích dẫn → Ảnh hưởng lớn, được cộng đồng nghiên cứu công nhận rộng rãi",
+      "currency": "Năm: 2023 → Nội dung còn rất phù hợp với nghiên cứu hiện tại"
+    },
+    {
+      "id": 10,
+      "source": "Gasaymeh, A.-M.M., Beirat, M.A. and Abu Qbeita, A.A. (2024). University Students’ Insights of Generative Artificial Intelligence (AI) Writing Tools. Education Sciences",
+      "author": "Gasaymeh, A.-M.M., Beirat, M.A. and Abu Qbeita, A.A. - Ưu điểm: + Có affiliation rõ ràng → đảm bảo tính minh bạch học thuật + Chuyên môn thuộc lĩnh vực giáo dục và chương trình giảng dạy → phù hợp với chủ đề AI trong học tập - Hạn chế: + Không phải học giả có ảnh hưởng lớn ở quốc tế",
+      "publisher": "Education Sciences - Ưu điểm: + Được index trong Scopus và Web of Science + Có peer-review + Thuộc nhóm Q2 trong lĩnh vực giáo dục - Hạn chế: + MDPI là open-access và có một vài tranh cãi",
+      "method": "Phương pháp: Nghiên cứu định lượng (khảo sát) - Ưu điểm: + Có dữ liệu thực nghiệm (primary data) + Kết quả cụ thể, có số liệu trung bình - Hạn chế: + Sample nhỏ (n=95) → khả năng khái quát thấp + Context hẹp (chỉ một trường đại học tại Jordan)",
+      "citations": "Chưa nhiều trích dẫn → Hiện tại ảnh hưởng thấp, chưa được kiểm chứng rộng rãi",
+      "currency": "Năm: 2024 → Tính cập nhật khá cao"
+    }
+  ],
+  "references": [
+    "​ Zhai, X. (2022). ChatGPT for Next Generation Science Learning. SSRN Electronic Journ. doi:https://doi.org/10.1145/358964.",
+    "​ Deep, P.D. and Chen, Y. (2025). The Role of AI in Academic Writing: Impacts on Writing Skills, Critical Thinking, and Integrity in Higher Education. Societies, 15(9), pp.247–247. doi:https://doi.org/10.3390/soc15090247.",
+    "​ Lee, Y.-J., Davis, R.O. and Choi, J.-I. (2025). Integrating generative AI into EFL writing: University students’ strategies and perceptions. Online Journal of Communication and Media Technologies, [online] 15(4), p.e202541. doi:https://doi.org/10.30935/ojcmt/17545.",
+    "​ Rahman, W. Z. (2026). Artificial Intelligence (AI) in English Writing Skills Learning: A Systematic Review. ETDC Indonesian Journal of Research and Educational Review, 5(2), 981–994. doi:https://doi.org/10.51574/ijrer.v5i2.4727.",
+    "​ Andreou, G. and Christani, P. (2025). The Benefits and Limitations of the Use of Generative Artificial Intelligence Tools in the Acquisition of Productive Skills in English as a Foreign Language—A Systematic Analysis. Applied Sciences, [online] 15(21), p.11476. doi:https://doi.org/10.3390/app152111476.",
+    "​ Miao, F. and Holmes, W. (2023). Guidance for generative AI in education and research. UNESCO eBooks. UNESCO. doi:https://doi.org/10.54675/ewzm9535.",
+    "​ Carless, D. and Boud, D. (2018). The development of student feedback literacy: Enabling uptake of feedback. Assessment & Evaluation in Higher Education, [online] 43(8), pp.1315–1325. doi:https://doi.org/10.1080/02602938.2018.1463354.",
+    "​ Tang, Y.M., Chen, P.C., Law, K.M.Y., Wu, C.H., Lau, Y., Guan, J., He, D. and Ho, G.T.S. (2021). Comparative Analysis of Student’s Live Online Learning Readiness During the Coronavirus (COVID-19) Pandemic in the Higher Education Sector. Computers & Education, 168(168), p.104211. doi:https://doi.org/10.1016/j.compedu.2021.104211.",
+    "​ Widiati, U., Rusdin, D., Darwin, D. and Indrawati, I. (2023). The impact of AI writing tools on the content and organization of students’ writing: EFL teachers’ perspective. Cogent Education, [online] 10(2). doi:https://doi.org/10.1080/2331186x.2023.2236469.",
+    "​Gasaymeh, A.-M.M., Beirat, M.A. and Abu Qbeita, A.A. (2024). University Students’ Insights of Generative Artificial Intelligence (AI) Writing Tools. Education Sciences, 14(10), p.1062. doi:https://doi.org/10.3390/educsci14101062."
+  ]
+}
