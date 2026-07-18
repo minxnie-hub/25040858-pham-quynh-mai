@@ -26,7 +26,7 @@ export function Home() {
 
         <motion.div className="hero-copy" initial={{ opacity: 0, y: 22 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75 }}>
           <p className="eyebrow">English Language Student · ULIS</p>
-          <h1>Fresh Chapter,<br /><em>Moving Forward.</em></h1>
+          <h1><span>Fresh Chapter,</span><span className="hero-title-accent">Moving Forward.</span></h1>
           <div className="hero-quote">
             <Decor name="quote" />
             <blockquote>
@@ -36,20 +36,15 @@ export function Home() {
           </div>
         </motion.div>
 
-        <motion.aside className="hero-card" initial={{ opacity: 0, rotate: 1.5, y: 18 }} animate={{ opacity: 1, rotate: -1.2, y: 0 }} transition={{ duration: 0.8, delay: 0.1 }}>
+        <motion.aside className="hero-card hero-card--portrait" initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.1 }}>
           <Decor name="tape" className="hero-tape" />
-          <div className="hero-card-inner">
-            <span className="hero-card-kicker">A personal learning journal</span>
-            <div className="hero-monogram" aria-hidden="true">QM</div>
-            <div className="hero-card-content">
-              <h2>PHẠM QUỲNH MAI</h2>
-              <p>Ngôn ngữ Anh · Trường Đại học Ngoại ngữ – ĐHQGHN</p>
-              <dl>
-                <div><dt>MSSV</dt><dd>25040858</dd></div>
-                <div><dt>MBTI</dt><dd>INFJ</dd></div>
-                <div><dt>Cung</dt><dd>Nhân Mã</dd></div>
-              </dl>
-            </div>
+          <div className="hero-card-inner hero-card-inner--portrait">
+            <img
+              className="hero-portrait-image"
+              src={asset("assets/personal/avatar.png")}
+              alt="Ảnh chân dung Phạm Quỳnh Mai"
+              loading="eager"
+            />
           </div>
         </motion.aside>
 
@@ -63,10 +58,19 @@ export function Home() {
           <h2>Ngôn ngữ, giáo dục<br />và những chuyển động mới.</h2>
         </motion.div>
         <motion.div className="about-grid" {...reveal}>
-          <div className="about-copy prose-lead">
-            <p>Mình là sinh viên ngành Ngôn ngữ Anh tại Trường Đại học Ngoại ngữ - ĐHQGHN. Mình yêu thích lĩnh vực ngôn ngữ, giáo dục và sáng tạo.</p>
-            <p>Mình luôn mong muốn học hỏi những điều mới, phát triển bản thân thông qua các dự án học tập, hoạt động nhóm và trải nghiệm thực tế. Với tinh thần trách nhiệm, sự cầu tiến và khả năng thích nghi, mỗi trải nghiệm đều là một cơ hội để trưởng thành và tạo ra những giá trị tích cực.</p>
-            <p>Portfolio này lưu giữ các sản phẩm, dự án và thành quả trong quá trình học tập, đồng thời ghi lại hành trình phát triển của bản thân.</p>
+          <div className="about-profile">
+            <figure className="about-portrait">
+              <img
+                src={asset("assets/personal/avatar.png")}
+                alt="Phạm Quỳnh Mai tại hội trường"
+                loading="lazy"
+              />
+            </figure>
+            <div className="about-copy prose-lead">
+              <p>Mình là sinh viên ngành Ngôn ngữ Anh tại Trường Đại học Ngoại ngữ - ĐHQGHN. Mình yêu thích lĩnh vực ngôn ngữ, giáo dục và sáng tạo.</p>
+              <p>Mình luôn mong muốn học hỏi những điều mới, phát triển bản thân thông qua các dự án học tập, hoạt động nhóm và trải nghiệm thực tế. Với tinh thần trách nhiệm, sự cầu tiến và khả năng thích nghi, mỗi trải nghiệm đều là một cơ hội để trưởng thành và tạo ra những giá trị tích cực.</p>
+              <p>Portfolio này lưu giữ các sản phẩm, dự án và thành quả trong quá trình học tập, đồng thời ghi lại hành trình phát triển của bản thân.</p>
+            </div>
           </div>
           <div className="identity-notes">
             <article><span>01</span><h3>INFJ</h3><p>Trực giác, thấu cảm và luôn tìm ý nghĩa trong những điều mình theo đuổi.</p></article>
@@ -113,21 +117,32 @@ export function Home() {
           <h2>Chuyển động là cách mình trở về với chính mình.</h2>
           <p>Ngoài việc học, nhảy là niềm đam mê lớn nhất của mình. Mình yêu cảm giác được thể hiện cảm xúc qua từng chuyển động và xem việc nhảy không chỉ là một hoạt động giải trí, mà còn là cách giải tỏa áp lực, rèn luyện sự tự tin và kỷ luật.</p>
         </motion.div>
-        <motion.div className="dance-words" {...reveal}>
-          <span>feel</span><span>move</span><span>release</span><span>become</span>
-        </motion.div>
+        <motion.figure className="dance-photo" {...reveal}>
+          <img
+            src={asset("assets/personal/dance.png")}
+            alt="Phạm Quỳnh Mai trong một động tác nhảy"
+            loading="lazy"
+          />
+        </motion.figure>
       </section>
 
       <section id="summary" className="summary section-shell section-divider">
         <motion.div className="summary-mark" {...reveal}><Sparkles size={22} /><span>Final reflection</span></motion.div>
         <motion.div className="summary-grid" {...reveal}>
-          <h2>Một chặng đường khép lại,<br /><em>một hành trình mới bắt đầu.</em></h2>
+          <h2><span>Một chặng đường khép lại,</span><span className="summary-title-accent">một hành trình mới bắt đầu.</span></h2>
           <div>
             <p>Đối với mình, hành trình phát triển bản thân không chỉ được đo bằng những thành tích đạt được mà còn bằng những bài học, trải nghiệm và sự trưởng thành sau mỗi thử thách.</p>
             <p>Portfolio này khép lại một chặng đường, nhưng cũng là điểm khởi đầu cho những mục tiêu mới. Mình sẽ tiếp tục học hỏi, sáng tạo và không ngừng hoàn thiện bản thân để tạo ra nhiều giá trị tích cực hơn trong tương lai.</p>
             <p>Sau tất cả, điều quý giá nhất không phải là luôn hoàn hảo hay chưa từng mắc sai lầm, mà là dám bước tiếp và không ngừng học hỏi từ những điều đã qua.</p>
           </div>
         </motion.div>
+        <motion.figure className="summary-photo" {...reveal}>
+          <img
+            src={asset("assets/personal/final-memory.png")}
+            alt="Ảnh tập thể trong một hoạt động trải nghiệm"
+            loading="lazy"
+          />
+        </motion.figure>
         <Separator />
         <blockquote className="closing-quote">“Tomorrow is always fresh, with no mistakes in it yet.” <cite>— Anne Shirley</cite></blockquote>
       </section>
